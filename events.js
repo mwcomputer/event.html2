@@ -6,9 +6,9 @@ function ausgabe(outputStr) {
 
 /** Btn */
 let btn = document.getElementById("trigBtn"); 
-btn = document.getElementById("trigBtn");
-btn = document;
-ausgabe(btn);
+//btn = document.getElementById("trigBtn");
+//btn = document;
+//ausgabe(btn);
 
 btn.addEventListener("click",test);
 
