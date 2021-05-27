@@ -15,12 +15,12 @@ btn.addEventListener("click",test);
 
 
 
-
-switchClassName();
-function switchClassName(params) {
-    document.body.className = "night";
-    document.body.children[0].className = "night";
-    document.body.children[1].className = "night";
+switchClassName("night");
+//switchClassName("day");
+function switchClassName(modeStr) {
+    document.body.className = modeStr;
+    document.body.children[0].className = modeStr;
+    document.body.children[1].className = modeStr;
 
 }
 
