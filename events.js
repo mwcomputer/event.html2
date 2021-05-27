@@ -15,7 +15,7 @@ btn.addEventListener("click",test);
 
 
 
-switchClassName("night");
+//switchClassName("night");
 //switchClassName("day");
 function switchClassName(modeStr) {
     document.body.className = modeStr;
