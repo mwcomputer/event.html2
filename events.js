@@ -4,6 +4,13 @@ function ausgabe(outputStr) {
     console.log(outputStr);
 }
 
+
+function test() {
+    switchClassName("night");
+    switchClassName("day");
+}
+
+
 /** Btn */
 let btn = document.getElementById("trigBtn"); 
 //btn = document.getElementById("trigBtn");
