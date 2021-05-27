@@ -22,8 +22,14 @@ function switchClassName(modeStr) {
     document.body.children[0].className = modeStr;
     document.body.children[1].className = modeStr;
 
+   // switchBtnTxt("day");
+   // switchBtnTxt("night");
 }
 
+
+function switchBtnTxt(modeStr) {
+    btn.innerHTML = modeStr;
+}
 
 
 function test() {
